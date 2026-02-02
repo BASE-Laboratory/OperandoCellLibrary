@@ -10,10 +10,10 @@ This repository hosts the machine-readable registry of sample environments (elec
 ## Live Dashboard
 Access the interactive tool here: **[Launch Registry](https://operando-library.streamlit.app)**
 
-## Context
+## 📖 Context
 This registry supports the perspective article:
-> **Autonomous battery research: Principles of heuristic operando experimentation** > *James Le Houx, et al.* > arXiv:2601.00851 (2026)  
-> [Read the Preprint](https://arxiv.org/abs/2601.00851)
+
+> **Autonomous battery research: Principles of heuristic operando experimentation** > *Emily Lu, Gabriel Perez, Peter Baker, Daniel Irving, Santosh Kumar, Veronica Celorrio, Sylvia Britto, Thomas F. Headen, Miguel Gomez-Gonzalez, Connor Wright, Calum Green, Robert Scott Young, Oleg Kirichek, Ali Mortazavi, Sarah Day, Isabel Antony, Zoe Wright, Thomas Wood, Tim Snow, Jeyan Thiyagalingam, Paul Quinn, Martin Owen Jones, William David, James Le Houx* > arXiv:2601.00851 (2026) · [Read the Preprint](https://arxiv.org/abs/2601.00851)
 
 It addresses the 3Rs of experimental hardware:
 * **Reliability:** Tracking failure modes (e.g., beam damage, vibrations).
