@@ -1,0 +1,252 @@
+[
+  {
+    "id": "cell_001",
+    "name": "POLARIS",
+    "type": "Coin adjacent",
+    "compatibility": {
+      "instruments": ["POLARIS", "GEM", "WISH"],
+      "techniques": ["Neutron Diffraction"]
+    },
+    "specifications": {
+      "sample_size": "2x4cm aperture",
+      "window_materials": ["Vanadium", "Aluminium", "Nickel", "Copper"],
+      "operating_limits": {
+        "max_temp_c": 80,
+        "pressure_control": false
+      }
+    },
+    "limitations_3r": {
+      "reliability": ["Unquantified stack pressure", "Electrolyte settling"],
+      "representativeness": ["High mass loading affects ion diffusion"],
+      "reproducibility": ["Pressure inconsistency from PEEK screws"]
+    },
+    "digital_twin": {
+      "cad_available": true
+    }
+  },
+  {
+    "id": "cell_002",
+    "name": "BAM",
+    "type": "Coin adjacent",
+    "compatibility": {
+      "instruments": ["EMU", "SINQ"],
+      "techniques": ["Muon spectroscopy", "SANS"]
+    },
+    "specifications": {
+      "sample_size": "18mm diameter",
+      "window_materials": ["Stainless Steel", "Aluminium"],
+      "operating_limits": {
+        "max_temp_c": 100,
+        "pressure_control": false
+      }
+    },
+    "limitations_3r": {
+      "reliability": ["Unquantified stack pressure", "Electrolyte settling"],
+      "representativeness": ["High mass loading limits C-rate"],
+      "reproducibility": ["Non-standard in-house design"]
+    },
+    "digital_twin": {
+      "cad_available": true
+    }
+  },
+  {
+    "id": "cell_003",
+    "name": "DRIX",
+    "type": "Radial / Capillary",
+    "compatibility": {
+      "instruments": ["I15-1", "DIAD"],
+      "techniques": ["XPDF", "XAS", "XRS"]
+    },
+    "specifications": {
+      "sample_size": "2.9mm ID",
+      "window_materials": ["Quartz"],
+      "operating_limits": {
+        "max_temp_c": 180,
+        "pressure_control": false
+      }
+    },
+    "limitations_3r": {
+      "reliability": ["Background variation if misaligned", "Fragile capillaries"],
+      "representativeness": ["Small sample size"],
+      "reproducibility": ["Difficult assembly", "Unsuited to pressure"]
+    },
+    "digital_twin": {
+      "cad_available": false
+    }
+  },
+  {
+    "id": "cell_004",
+    "name": "Spectro-echem Flow Cell",
+    "type": "Flow Cell",
+    "compatibility": {
+      "instruments": ["B07", "B22"],
+      "techniques": ["Soft XPS", "NEXAFS", "XAS"]
+    },
+    "specifications": {
+      "sample_size": "3-12mm electrode",
+      "window_materials": ["Silicon nitride", "Graphene", "Nafion"],
+      "operating_limits": {
+        "max_temp_c": 25,
+        "pressure_control": false
+      }
+    },
+    "limitations_3r": {
+      "reliability": ["Beam damage artifacts", "Flow-induced vibrations"],
+      "representativeness": ["Thin sample requirement"],
+      "reproducibility": ["Membrane prep difficulty", "Flow optimisation required"]
+    },
+    "digital_twin": {
+      "cad_available": false
+    }
+  },
+  {
+    "id": "cell_006a",
+    "name": "B18 Static Cell",
+    "type": "Static",
+    "compatibility": {
+      "instruments": ["B18"],
+      "techniques": ["Hard X-ray XAS (Fluorescence)"]
+    },
+    "specifications": {
+      "sample_size": "Variable",
+      "window_materials": ["Kapton"],
+      "operating_limits": {
+        "max_temp_c": 25,
+        "pressure_control": false
+      }
+    },
+    "limitations_3r": {
+      "reliability": ["Beam damage risk"],
+      "representativeness": ["Static conditions only"],
+      "reproducibility": ["Non-standard design"]
+    },
+    "digital_twin": {
+      "cad_available": false
+    }
+  },
+  {
+    "id": "cell_006b",
+    "name": "B18 Flow Cell",
+    "type": "Flow",
+    "compatibility": {
+      "instruments": ["B18"],
+      "techniques": ["Hard X-ray XAS (Fluorescence & Transmission)"]
+    },
+    "specifications": {
+      "sample_size": "Variable",
+      "window_materials": ["Kapton"],
+      "operating_limits": {
+        "max_temp_c": 25,
+        "pressure_control": false
+      }
+    },
+    "limitations_3r": {
+      "reliability": ["Window damage risk"],
+      "representativeness": ["Controlled mass transport"],
+      "reproducibility": ["Requires pump optimisation"]
+    },
+    "digital_twin": {
+      "cad_available": false
+    }
+  },
+  {
+    "id": "cell_007a",
+    "name": "M3.0 (Nanoprobe)",
+    "type": "Modular Stack",
+    "compatibility": {
+      "instruments": ["I14"],
+      "techniques": ["Nano-focus XRF", "XANES"]
+    },
+    "specifications": {
+      "sample_size": "Coin-type stack",
+      "window_materials": ["Gorilla Glass", "PEEK"],
+      "operating_limits": {
+        "max_temp_c": 25,
+        "pressure_control": false
+      }
+    },
+    "limitations_3r": {
+      "reliability": ["Window bulging affects pressure uniformity"],
+      "representativeness": ["Trade-off: uniformity vs pressure"],
+      "reproducibility": ["Piston seal is tricky"]
+    },
+    "digital_twin": {
+      "cad_available": true
+    }
+  },
+  {
+    "id": "cell_007b",
+    "name": "M4.0 (Nanoprobe)",
+    "type": "Modular Stack",
+    "compatibility": {
+      "instruments": ["I14", "B18"],
+      "techniques": ["Nano-focus XRF", "XANES"]
+    },
+    "specifications": {
+      "sample_size": "Coin-type stack",
+      "window_materials": ["Silicon Nitride", "FFKM Gasket"],
+      "operating_limits": {
+        "max_temp_c": 25,
+        "pressure_control": true
+      }
+    },
+    "limitations_3r": {
+      "reliability": ["Risk of electrical shorting from Al plates"],
+      "representativeness": ["Reproducible stack pressure"],
+      "reproducibility": ["Limited availability of FFKM gaskets"]
+    },
+    "digital_twin": {
+      "cad_available": true
+    }
+  },
+  {
+    "id": "cell_008",
+    "name": "Standard Coin Cell (Mod)",
+    "type": "Baseline",
+    "compatibility": {
+      "instruments": ["Various"],
+      "techniques": ["Ex-situ", "XCT"]
+    },
+    "specifications": {
+      "sample_size": "2032 Standard",
+      "window_materials": ["Stainless Steel (Thinned)"],
+      "operating_limits": {
+        "max_temp_c": 60,
+        "pressure_control": true
+      }
+    },
+    "limitations_3r": {
+      "reliability": ["High attenuation if not thinned"],
+      "representativeness": ["Gold standard for electrochemistry"],
+      "reproducibility": ["High"]
+    },
+    "digital_twin": {
+      "cad_available": false
+    }
+  },
+  {
+    "id": "cell_009",
+    "name": "Standard Pouch Cell",
+    "type": "Baseline",
+    "compatibility": {
+      "instruments": ["NIMROD", "POLARIS"],
+      "techniques": ["Neutron Diffraction"]
+    },
+    "specifications": {
+      "sample_size": "Flexible",
+      "window_materials": ["Polymer/Aluminium"],
+      "operating_limits": {
+        "max_temp_c": 60,
+        "pressure_control": false
+      }
+    },
+    "limitations_3r": {
+      "reliability": ["Deformation under vacuum"],
+      "representativeness": ["High"],
+      "reproducibility": ["Lower than coin cells"]
+    },
+    "digital_twin": {
+      "cad_available": false
+    }
+  }
+]
