@@ -1,6 +1,6 @@
 # Faraday/STFC Operando Sample Environment Library
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://operando-cell-library.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://operando-library.streamlit.app)
 [![arXiv](https://img.shields.io/badge/arXiv-2601.00851-b31b1b.svg)](https://arxiv.org/abs/2601.00851)
 
 **The open-access hardware registry for the UK battery community.**
@@ -8,7 +8,7 @@
 This repository hosts the machine-readable registry of sample environments (electrochemical cells) available across UK central facilities (ISIS, Diamond Light Source, etc.). It serves as the hardware ground truth for the **Heuristic Operando** framework, enabling researchers and AI agents to match experimental requirements with compatible hardware specifications.
 
 ## Live Dashboard
-Access the interactive tool here: **[Launch Registry](https://faraday-operando-registry.streamlit.app)**
+Access the interactive tool here: **[Launch Registry](https://operando-library.streamlit.app)**
 
 ## Context
 This registry supports the perspective article:
