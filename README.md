@@ -30,7 +30,7 @@ To run this dashboard on your own machine:
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/YOUR-USERNAME/faraday-operando-registry.git](https://github.com/YOUR-USERNAME/faraday-operando-registry.git)
+    git clone [https://github.com/Base-Laboratory/OperandoCellLibrary.git](https://github.com/Base-Laboratory/OperandoCellLibrary.git)
     ```
 2.  Install dependencies:
     ```bash
