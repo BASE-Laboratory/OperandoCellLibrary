@@ -3,6 +3,9 @@
     "id": "cell_001",
     "name": "POLARIS",
     "type": "Coin adjacent",
+    "contact_info": {
+      "primary_email": "gabriel.perez@stfc.ac.uk",
+    },
     "compatibility": {
       "instruments": ["POLARIS", "GEM", "WISH"],
       "techniques": ["Neutron Diffraction"]
@@ -28,6 +31,9 @@
     "id": "cell_002",
     "name": "BAM",
     "type": "Coin adjacent",
+    "contact_info": {
+      "primary_email": "peter.baker@stfc.ac.uk",
+    },
     "compatibility": {
       "instruments": ["EMU", "SINQ"],
       "techniques": ["Muon spectroscopy", "SANS"]
@@ -53,6 +59,9 @@
     "id": "cell_003",
     "name": "DRIX",
     "type": "Radial / Capillary",
+    "contact_info": {
+      "primary_email": "james.le-houx@stfc.ac.uk",
+    },
     "compatibility": {
       "instruments": ["I15-1", "DIAD"],
       "techniques": ["XPDF", "XAS", "XRS"]
@@ -78,6 +87,9 @@
     "id": "cell_004",
     "name": "Spectro-echem Flow Cell",
     "type": "Flow Cell",
+    "contact_info": {
+      "primary_email": "santosh.kumar@diamond.ac.uk",
+    },
     "compatibility": {
       "instruments": ["B07", "B22"],
       "techniques": ["Soft XPS", "NEXAFS", "XAS"]
@@ -102,6 +114,9 @@
   {
     "id": "cell_006a",
     "name": "B18 Static Cell",
+    "contact_info": {
+      "primary_email": "james.le-houx@stfc.ac.uk",
+    },
     "type": "Static",
     "compatibility": {
       "instruments": ["B18"],
@@ -127,6 +142,9 @@
   {
     "id": "cell_006b",
     "name": "B18 Flow Cell",
+    "contact_info": {
+      "primary_email": "james.le-houx@stfc.ac.uk",
+    },
     "type": "Flow",
     "compatibility": {
       "instruments": ["B18"],
@@ -152,6 +170,9 @@
   {
     "id": "cell_007a",
     "name": "M3.0 (Nanoprobe)",
+    "contact_info": {
+      "primary_email": "miguel.gomez-gonzalez@diamond.ac.uk",
+    },
     "type": "Modular Stack",
     "compatibility": {
       "instruments": ["I14"],
@@ -177,6 +198,9 @@
   {
     "id": "cell_007b",
     "name": "M4.0 (Nanoprobe)",
+    "contact_info": {
+      "primary_email": "miguel.gomez-gonzalez@diamond.ac.uk",
+    },
     "type": "Modular Stack",
     "compatibility": {
       "instruments": ["I14", "B18"],
@@ -202,6 +226,9 @@
   {
     "id": "cell_008",
     "name": "Standard Coin Cell (Mod)",
+    "contact_info": {
+      "primary_email": "james.le-houx@stfc.ac.uk",
+    },
     "type": "Baseline",
     "compatibility": {
       "instruments": ["Various"],
@@ -227,6 +254,9 @@
   {
     "id": "cell_009",
     "name": "Standard Pouch Cell",
+    "contact_info": {
+      "primary_email": "james.le-houx@stfc.ac.uk",
+    },
     "type": "Baseline",
     "compatibility": {
       "instruments": ["NIMROD", "POLARIS"],
@@ -249,4 +279,5 @@
       "cad_available": false
     }
   }
+
 ]
