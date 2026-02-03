@@ -117,7 +117,8 @@ st.subheader("Hardware Registry")
 st.dataframe(
     filtered_df[[
         'name', 'type', 'digital_twin.cad_available', 
-        'compatibility.techniques', 'specifications.operating_limits.max_temp_c'
+        'compatibility.techniques', 'specifications.operating_limits.max_temp_c',
+        'contact_info.primary_email'  # <--- Added this
     ]],
     use_container_width=True,
     column_config={
@@ -125,7 +126,8 @@ st.dataframe(
         'type': "Geometry",
         'digital_twin.cad_available': st.column_config.CheckboxColumn("Digital Twin", default=False),
         'compatibility.techniques': st.column_config.ListColumn("Techniques"),
-        'specifications.operating_limits.max_temp_c': st.column_config.NumberColumn("Max Temp", format="%.0f°C")
+        'specifications.operating_limits.max_temp_c': st.column_config.NumberColumn("Max Temp", format="%.0f°C"),
+        'contact_info.primary_email': st.column_config.LinkColumn("Point of Contact") # <--- Formatted as link
     },
     hide_index=True,
     height=300
@@ -154,6 +156,10 @@ if selected_cell_names:
             st.markdown(f"### {cell_data['name']}")
             st.caption(f"Type: {cell_data['type']}")
             
+            # --- CONTACT BUTTON ---
+            email = cell_data.get('contact_info', {}).get('primary_email', 'N/A')
+            st.link_button(f"📧 Contact Support", f"mailto:{email}", use_container_width=True)
+
             with st.container(border=True):
                 st.write("**Key Specifications**")
                 st.write(f"Max Temp: {limits.get('max_temp_c', 25)}°C")
@@ -222,4 +228,5 @@ with c_right:
         file_name="filtered_cell_registry.json",
         mime="application/json",
         use_container_width=True
+
     )
