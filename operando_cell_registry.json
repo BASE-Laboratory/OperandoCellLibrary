@@ -60,7 +60,7 @@
     "name": "DRIX",
     "type": "Radial / Capillary",
     "contact_info": {
-      "primary_email": "james.le-houx@stfc.ac.uk"
+      "primary_email": "daniel.irving@diamond.ac.uk"
     },
     "compatibility": {
       "instruments": ["I15-1", "DIAD"],
@@ -280,3 +280,4 @@
     }
   }
 ]
+
